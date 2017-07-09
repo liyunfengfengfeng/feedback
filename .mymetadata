@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="feedback"
+  id="myeclipse.1492749038550"
+  context-root="/feedback"
+  j2ee-spec="6.0"
+  archive="feedback.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

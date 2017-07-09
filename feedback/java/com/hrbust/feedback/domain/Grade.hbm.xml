@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.hrbust.feedback.domain">
+	<class name="Grade" table="t_grade">
+		<id name="id" column="id" type="integer">
+			<generator class="identity" />
+		</id>
+		<property name="gra_name" column="gra_name" type="string"/>
+		<!-- 配置班级对学生的一对多关联关系 -->
+		<set name="students">
+			<key column="grade_id"></key>
+			<one-to-many class="Student"/>
+		</set>
+		
+	</class>	
+</hibernate-mapping>    

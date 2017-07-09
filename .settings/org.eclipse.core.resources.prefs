@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//main/java/com/hrbust/feedback/dao/AdminDao.java=UTF-8
+encoding//main/java/com/hrbust/feedback/dao/BaseDao.java=UTF-8
+encoding//main/java/com/hrbust/feedback/dao/GradeDao.java=UTF-8
+encoding//main/java/com/hrbust/feedback/dao/StudentDao.java=UTF-8
+encoding//main/java/com/hrbust/feedback/dao/TeacherDao.java=UTF-8
+encoding//main/java/com/hrbust/feedback/dao/impl/BaseDaoImpl.java=UTF-8
+encoding//main/java/com/hrbust/feedback/service/AdminService.java=UTF-8
+encoding//main/java/com/hrbust/feedback/service/StudentService.java=UTF-8
+encoding//main/java/com/hrbust/feedback/service/TeacherService.java=UTF-8

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.hrbust.feedback.domain">
+	<class name="TeacherAndGrade" table="t_teacher_grade">
+		<id name="id" column="id" type="integer">
+			<generator class="identity" />
+		</id>
+	
+		<many-to-one name="teacher" class="Teacher" column="teacher_id" />
+		
+		<many-to-one name="grade" class="Grade" column="grade_id" />
+	</class>	
+</hibernate-mapping>    
